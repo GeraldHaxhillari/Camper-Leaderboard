@@ -1,0 +1,48 @@
+table {
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  line-height: 35px;
+  height: 35px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  background-color: #4CAF50;
+  height: 30px;
+  color: white;
+}
+
+table th:hover {
+  background-color: green;
+}
+
+.recent, .alltime {
+  cursor: pointer;
+}
+
+table a {
+  color: black;
+  text-decoration: none;
+  line-height: 45px;
+}
+
+table img {
+  position: relative;
+  right: 20px;
+  top: 9px;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+}
